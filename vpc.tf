@@ -1,4 +1,4 @@
-resource "aws_vpc" "curso_vpc" {
+resource "aws_vpc" "edn_vpc" {
   cidr_block           = var.cidr_block
   enable_dns_hostnames = true
   enable_dns_support   = true
